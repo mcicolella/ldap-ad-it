@@ -4,7 +4,7 @@ This is a simple LDAP server that tries to simulate an AD using
 Apache Directory Server.
 
 * Should work for activedirectory.js
-* It is forked from https://github.com/dwimberger/ldap-ad-it and
+* It is forked from https://github.com/dwimberger/ldap-ad-it and https://github.com/heikoschwarz/ldap-ad-it and
 is based on https://github.com/kwart/ldap-server/ and
 http://stackoverflow.com/questions/11174835/add-memberof-attribute-to-apacheds 
 
