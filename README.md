@@ -14,7 +14,7 @@ It should work for activedirectory.js
 ### Building
 
 ```bash
-docker build -t heikoschwarz/ldap-ad-it:latest .
+docker build -t mcicolella/ldap-ad-it:latest .
 ```
 
 ### Docker Hub
