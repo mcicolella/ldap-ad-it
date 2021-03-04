@@ -3,10 +3,7 @@
 This is a simple LDAP server that tries to simulate an AD using 
 Apache Directory Server.
 
-* Should work for activedirectory.js
-* It is forked from https://github.com/dwimberger/ldap-ad-it and https://github.com/heikoschwarz/ldap-ad-it and
-is based on https://github.com/kwart/ldap-server/ and
-http://stackoverflow.com/questions/11174835/add-memberof-attribute-to-apacheds 
+It should work for activedirectory.js
 
 ## Enhancements in this fork
 * Ability to mount a directory as a volume for a custom ldif file which can be specified by the environment variable USERS_LDIF
@@ -41,4 +38,8 @@ With your own users from your volume on Windows:
 docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 heikoschwarz/ldap-ad-it:latest
 ```
 
+## Credits
 
+This project is forked from https://github.com/dwimberger/ldap-ad-it and https://github.com/heikoschwarz/ldap-ad-it and
+is based on https://github.com/kwart/ldap-server/ and
+http://stackoverflow.com/questions/11174835/add-memberof-attribute-to-apacheds 
