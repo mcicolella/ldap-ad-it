@@ -11,5 +11,5 @@ RUN wget https://github.com/kwart/ldap-server/releases/download/2017-09-04/ldap-
 
 COPY users.ldif /ldap/users.ldif
 
-CMD ["java", "-jar", "ldap-server.jar", "$USERS_LDIF"]
+CMD java -jar ldap-server.jar $USERS_LDIF
 
