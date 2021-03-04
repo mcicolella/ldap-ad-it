@@ -19,23 +19,23 @@ docker build -t heikoschwarz/ldap-ad-it:latest .
 
 ### Docker Hub
 
-Get the image it from https://hub.docker.com/r/heikoschwarz/ldap-ad-it
+Get the image it from https://hub.docker.com/r/mcicolella/ldap-ad-it
 
 ### Running
 
 With predefined users from /ldap/users.ldif:
 ```bash
-docker run -it --rm -p 10389:10389 heikoschwarz/ldap-ad-it:latest
+docker run -it --rm -p 10389:10389 mcicolella/ldap-ad-it:latest
 ```
 
 With your own users from your volume:
 ```bash
-docker run -it --rm -v data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 heikoschwarz/ldap-ad-it:latest
+docker run -it --rm -v data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 mcicolella/ldap-ad-it:latest
 ```
 
 With your own users from your volume on Windows:
 ```bash
-docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 heikoschwarz/ldap-ad-it:latest
+docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 mcicolella/ldap-ad-it:latest
 ```
 
 ## Credits
