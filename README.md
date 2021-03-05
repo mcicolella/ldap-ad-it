@@ -1,4 +1,4 @@
-# Simple LDAP server simulating AD for integration testing
+# Simple LDAP server simulating Active Directory for integration testing
 
 This is a simple LDAP server that tries to simulate an AD using 
 Apache Directory Server.
