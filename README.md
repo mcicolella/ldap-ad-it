@@ -1,6 +1,6 @@
 # Simple LDAP server simulating Active Directory for integration testing
 
-This is a simple LDAP server that tries to simulate an AD using 
+This is a simple LDAP server that tries to simulate an Active Directory using 
 Apache Directory Server.
 
 It should work for activedirectory.js
@@ -37,6 +37,16 @@ With your own users from your volume on Windows:
 ```bash
 docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/myusers.ldif -p 10389:10389 mcicolella/ldap-ad-it:latest
 ```
+
+### Apache Directory Studio
+
+![alt text](/img/apache-directory-studio-1.png)
+
+![alt text](/img/apache-directory-studio-2.png)
+
+![alt text](/img/apache-directory-studio-2.png)
+
+
 
 ## Credits
 
