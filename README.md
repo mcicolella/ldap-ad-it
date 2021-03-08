@@ -54,6 +54,12 @@ docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/my
 
 ## Credits
 
-This project is forked from https://github.com/dwimberger/ldap-ad-it and https://github.com/heikoschwarz/ldap-ad-it and
-is based on https://github.com/kwart/ldap-server/ and
-http://stackoverflow.com/questions/11174835/add-memberof-attribute-to-apacheds 
+Project forked from
+
+- https://github.com/dwimberger/ldap-ad-it
+- https://github.com/heikoschwarz/ldap-ad-it 
+
+based on LDAP server in Java
+
+- https://github.com/kwart/ldap-server/
+- http://stackoverflow.com/questions/11174835/add-memberof-attribute-to-apacheds 
