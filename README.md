@@ -40,7 +40,11 @@ docker run -it --rm -v //c/Users/path/to/my/data:/data --env USERS_LDIF=/data/my
 
 ### Apache Directory Studio
 
+- Download [Apache Directory Studio](https://directory.apache.org/studio/downloads.html)
+
 ![alt text](/img/apache-directory-studio-1.png)
+
+
 
 ![alt text](/img/apache-directory-studio-2.png)
 
